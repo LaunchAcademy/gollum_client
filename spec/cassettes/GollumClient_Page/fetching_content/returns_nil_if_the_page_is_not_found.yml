@@ -1,0 +1,176 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://localhost:9292/codecabulary/will-never-be-present
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 302
+      message: "Found "
+    headers: 
+      Content-Type: 
+      - text/html;charset=utf-8
+      Location: 
+      - http://localhost:9292/create/codecabulary/will-never-be-present
+      Content-Length: 
+      - "0"
+      X-Xss-Protection: 
+      - 1; mode=block
+      X-Content-Type-Options: 
+      - nosniff
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Server: 
+      - WEBrick/1.3.1 (Ruby/1.9.3/2013-05-15)
+      Date: 
+      - Mon, 22 Jul 2013 00:12:46 GMT
+      Connection: 
+      - Keep-Alive
+      Set-Cookie: 
+      - rack.session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRiJFY2RjOTdkYzQ2ZmViNTIzNDRiMTdl%0AM2YyNzAyOWY5YmIwZjBjZDUxMTBhYjI5MWE3OTBjYTQ1Y2I0M2MwNDk4Mkki%0ADXRyYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsARiItNmJiYzBl%0AMTk4MDIxNDIwZjEwNTJiZjkxY2ZiZGU1NGY3ODE5YmEzY0kiGUhUVFBfQUND%0ARVBUX0VOQ09ESU5HBjsARiItZGRkMDk4OTE3NGYxOWE1YjE4NzkxMjEzY2M0%0AMGM1YTYwOWQyNTQ2Y0kiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsARiItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOQ%3D%3D%0A--f51754c44e8ea51007369af65d1da90a0b2ebacd; path=/; HttpOnly
+    body: 
+      encoding: US-ASCII
+      string: ""
+    http_version: 
+  recorded_at: Mon, 22 Jul 2013 00:12:46 GMT
+- request: 
+    method: get
+    uri: http://localhost:9292/create/codecabulary/will-never-be-present
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 302
+      message: "Found "
+    headers: 
+      Content-Type: 
+      - text/html;charset=utf-8
+      Location: 
+      - http://localhost:9292/__omnigollum__/auth/github?origin=%2Fcreate%2Fcodecabulary%2Fwill-never-be-present
+      Content-Length: 
+      - "0"
+      X-Xss-Protection: 
+      - 1; mode=block
+      X-Content-Type-Options: 
+      - nosniff
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Server: 
+      - WEBrick/1.3.1 (Ruby/1.9.3/2013-05-15)
+      Date: 
+      - Mon, 22 Jul 2013 00:12:46 GMT
+      Connection: 
+      - Keep-Alive
+      Set-Cookie: 
+      - rack.session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRiJFYjk2ZWRiOGFlMzlhN2YxYjQ2YWE5%0ANWRkZjliZWI1NjA5M2VhODIxM2U3YzkwZjQ0OWJlMTA1YTUzZWVlYTBmZEki%0ADXRyYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsARiItNmJiYzBl%0AMTk4MDIxNDIwZjEwNTJiZjkxY2ZiZGU1NGY3ODE5YmEzY0kiGUhUVFBfQUND%0ARVBUX0VOQ09ESU5HBjsARiItZGRkMDk4OTE3NGYxOWE1YjE4NzkxMjEzY2M0%0AMGM1YTYwOWQyNTQ2Y0kiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsARiItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOQ%3D%3D%0A--b561c49204cee75da360f4d97695f421792bb913; path=/; HttpOnly
+    body: 
+      encoding: US-ASCII
+      string: ""
+    http_version: 
+  recorded_at: Mon, 22 Jul 2013 00:12:46 GMT
+- request: 
+    method: get
+    uri: http://localhost:9292/__omnigollum__/auth/github?origin=/create/codecabulary/will-never-be-present
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 302
+      message: "Found "
+    headers: 
+      Content-Length: 
+      - "250"
+      Location: 
+      - https://github.com/login/oauth/authorize?response_type=code&client_id=6c49797937aa99943365&redirect_uri=http%3A%2F%2Flocalhost%3A9292%2F__omnigollum__%2Fauth%2Fgithub%2Fcallback&state=01b2f14ee9214dc70370bd3ed5d04f727013d92143082066
+      X-Content-Type-Options: 
+      - nosniff
+      Server: 
+      - WEBrick/1.3.1 (Ruby/1.9.3/2013-05-15)
+      Date: 
+      - Mon, 22 Jul 2013 00:12:46 GMT
+      Connection: 
+      - Keep-Alive
+      Set-Cookie: 
+      - rack.session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRiJFODA3NTgyYTUyNWFmZmUzZDgwMDJi%0ANzk1MjE3ZDQ3YTc2OTRjMWU2NWVkYjJhMzgwNDcwZGRiZWY5ZDIzNmM2OEki%0ADXRyYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsARiItNmJiYzBl%0AMTk4MDIxNDIwZjEwNTJiZjkxY2ZiZGU1NGY3ODE5YmEzY0kiGUhUVFBfQUND%0ARVBUX0VOQ09ESU5HBjsARiItZGRkMDk4OTE3NGYxOWE1YjE4NzkxMjEzY2M0%0AMGM1YTYwOWQyNTQ2Y0kiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsARiItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOUkiFG9tbmlh%0AdXRoLnBhcmFtcwY7AEZ7BkkiC29yaWdpbgY7AFRJIi8vY3JlYXRlL2NvZGVj%0AYWJ1bGFyeS93aWxsLW5ldmVyLWJlLXByZXNlbnQGOwBUSSIUb21uaWF1dGgu%0Ab3JpZ2luBjsARkATSSITb21uaWF1dGguc3RhdGUGOwBGIjUwMWIyZjE0ZWU5%0AMjE0ZGM3MDM3MGJkM2VkNWQwNGY3MjcwMTNkOTIxNDMwODIwNjY%3D%0A--37768229d511f7777d6e7c22e9b1309951188ec0; path=/; HttpOnly
+    body: 
+      encoding: US-ASCII
+      string: Redirecting to https://github.com/login/oauth/authorize?response_type=code&client_id=6c49797937aa99943365&redirect_uri=http%3A%2F%2Flocalhost%3A9292%2F__omnigollum__%2Fauth%2Fgithub%2Fcallback&state=01b2f14ee9214dc70370bd3ed5d04f727013d92143082066...
+    http_version: 
+  recorded_at: Mon, 22 Jul 2013 00:12:46 GMT
+- request: 
+    method: get
+    uri: https://github.com/login/oauth/authorize?client_id=6c49797937aa99943365&redirect_uri=http://localhost:9292/__omnigollum__/auth/github/callback&response_type=code&state=01b2f14ee9214dc70370bd3ed5d04f727013d92143082066
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 302
+      message: Found
+    headers: 
+      Server: 
+      - GitHub.com
+      Date: 
+      - Mon, 22 Jul 2013 00:12:45 GMT
+      Content-Type: 
+      - text/html; charset=utf-8
+      Connection: 
+      - keep-alive
+      Status: 
+      - 302 Found
+      Cache-Control: 
+      - no-cache
+      Strict-Transport-Security: 
+      - max-age=2592000
+      X-Frame-Options: 
+      - deny
+      Set-Cookie: 
+      - dotcom_user=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+      - logged_in=no; domain=.github.com; path=/; expires=Fri, 22-Jul-2033 00:12:45 GMT; secure; HttpOnly
+      Location: 
+      - https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D6c49797937aa99943365%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A9292%252F__omnigollum__%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26state%3D01b2f14ee9214dc70370bd3ed5d04f727013d92143082066
+      X-Runtime: 
+      - "2"
+      Content-Length: 
+      - "353"
+      Vary: 
+      - Accept-Encoding
+    body: 
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D6c49797937aa99943365%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A9292%252F__omnigollum__%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26state%3D01b2f14ee9214dc70370bd3ed5d04f727013d92143082066">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Mon, 22 Jul 2013 00:12:47 GMT
+recorded_with: VCR 2.5.0
