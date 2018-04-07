@@ -4,11 +4,12 @@ require 'nokogiri'
 
 module GollumClient
   class Page
-    attr_reader :body, :title
+    attr_reader :body, :title, :meta
 
-    def initialize(title, body)
+    def initialize(title, body, meta = {})
       @title = title
       @body = body
+      @meta = meta
     end
 
     class << self
@@ -24,7 +25,8 @@ module GollumClient
         node = parsed_resp.css('#wiki-content').first
         if node
           title = parsed_resp.css('#head h1').first.inner_html
-          new(title, node.to_s)
+          html_title = parsed_resp.css('title').first.inner_html
+          new(title, node.to_s, title: html_title)
         else
           nil
         end
